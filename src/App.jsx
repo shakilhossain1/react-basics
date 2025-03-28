@@ -1,6 +1,5 @@
 import "./App.css";
 import Navbar from "./Navbar";
-import HelloWorld from "./HelloWorld";
 import Footer from "./Footer";
 
 import { useState } from "react";
@@ -15,7 +14,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <HelloWorld />
+      <h1>Hello </h1>
 
       <div>{number}</div> <br />
 
